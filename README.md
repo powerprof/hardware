@@ -54,6 +54,14 @@ The D1 Mini board is a "shield" which houses the INA260 current sensor and is in
 | DuPont   | 6-pin 2.54mm Header             | 1   |                                                                                            |
 | DuPont   | 2-pin Right Angle 2.54mm Header | 1   |                                                                                            |
 
+## Roadmap
+
+Some things we'd like to add, given the time:
+
+- An ESP32-based board with Bluetooth communication
+- Direct integration of the INA260 (obviating the Adafruit breakout board)
+- One modular connector for the front-end instead of four separate wires
+
 ## Acknowledgements
 
 Special thanks to [weeding-nerdy](https://github.com/weeding-nerdy) for their [gufu_gud](https://github.com/weeding-nerdy/gufu_gud), which was the inspiration for this project.

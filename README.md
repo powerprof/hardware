@@ -12,6 +12,8 @@ There are currently two PowerProf boards - the Teensy version and the Wemos D1 M
 
 The Teensy board is a carrier board which houses the microcontroller and the INA260 current sensor.
 
+[Order this board from OSH Park](https://oshpark.com/shared_projects/RvujZ5At)
+
 ### Schematic
 
 ![teensy schematic](./png/teensy-schematic.png)
@@ -31,6 +33,8 @@ The Teensy board is a carrier board which houses the microcontroller and the INA
 ## Wemos D1 Mini
 
 The D1 Mini board is a "shield" which houses the INA260 current sensor and is installed on top of the D1 Mini.
+
+[Order this board from OSH Park](https://oshpark.com/shared_projects/EueeZyrV)
 
 ### Schematic
 

@@ -53,3 +53,7 @@ The D1 Mini board is a "shield" which houses the INA260 current sensor and is in
 | DuPont   | 8-pin 2.54mm Header             | 2   |                                                                                            |
 | DuPont   | 6-pin 2.54mm Header             | 1   |                                                                                            |
 | DuPont   | 2-pin Right Angle 2.54mm Header | 1   |                                                                                            |
+
+## Acknowledgements
+
+Special thanks to [weeding-nerdy](https://github.com/weeding-nerdy) for their [gufu_gud](https://github.com/weeding-nerdy/gufu_gud), which was the inspiration for this project.

@@ -46,10 +46,10 @@ The Teensy board is a carrier board which houses the microcontroller and the INA
 
 ### Assembly
 
-1. Solder the Teensy to the top of the board.
-2. Solder the 8-pin header to the top of the board.
+1. Solder the Teensy to the top side of the board.
+2. Solder the 8-pin header to the top side of the board.
 3. Solder the INA260 to the 8-pin header.
-4. Solder the terminal block to the top of the board.
+4. Solder the terminal block to the top side of the board.
 
 ## Wemos D1 Mini
 
@@ -77,10 +77,10 @@ The D1 Mini board is a "shield" which houses the INA260 current sensor and is in
 
 ### Assembly
 
-1. Solder the two 8-pin headers on the bottom of the board.
-2. Solder the 6-pin header on the top of the board.
-3. Solder the 2-pin right angle header on the top of the board.
-4. Solder the INA260 to the 6-pin header - make sure that pins 7/8 of the INA260 breakout are not connected!
+1. Solder the two 8-pin headers on the underside of the board.
+2. Solder the 6-pin header to the top side of the board.
+3. Solder the 2-pin right angle header to the top side of the board.
+4. Solder the INA260 to the 6-pin header - make sure that V+/V- pins of the INA260 breakout are not connected!
 5. Install the shield on top of a D1 Mini.
 
 ## Roadmap

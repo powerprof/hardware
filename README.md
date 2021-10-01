@@ -1,6 +1,6 @@
 # PowerProf Hardware Resources
 
-PowerProf is a current monitor for embedded systems.
+PowerProf is a current monitor for embedded systems. You can use it to get accurate current consumption data for any workload or operating conditions, and then use that information to design battery-based systems with just the right amount of capacity.
 
 There are currently two PowerProf boards - the Teensy version and the Wemos D1 Mini version. The Teensy version supports communication over USB, while the Wemos D1 Mini supports USB and WiFi. Both boards use the [INA260 current sensor](https://www.ti.com/lit/ds/symlink/ina260.pdf) from Texas Instruments.
 

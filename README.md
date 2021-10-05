@@ -23,7 +23,9 @@ There are currently three supported microcontrollers - the Teensy 3.6, the LOLIN
 | Power Resolution    | 10mW             |              |
 | Sample Rate         | 110Hz - 6.494kHz | 110Hz - 1kHz |
 | Supply Voltage      | 5V               | 5V           |
-| Supply Current      | 30-500mA         | 100mA        |
+| Supply Current      | 30-500mA         | 100mA[^1]    |
+
+[^1]: Depends on which board and protocol is in use.
 
 ## Wiring Diagrams
 

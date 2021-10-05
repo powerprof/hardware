@@ -2,7 +2,7 @@
 
 PowerProf is a current monitor for embedded systems. You can use it to get accurate current consumption data for any workload or operating conditions, and then use that information to design battery-based systems with just the right amount of capacity.
 
-There are currently two supported microcontrollers - the Teensy 3.6 and the Wemos D1 Mini. The Teensy version supports communication over USB, while the Wemos D1 Mini supports USB and WiFi. Both boards use the [INA260 current sensor](https://www.ti.com/lit/ds/symlink/ina260.pdf) from Texas Instruments. There are two variants of the Wemos D1 Mini board - one uses the INA260 breakout board from Adafruit, and the other uses an INA260 directly.
+There are currently three supported microcontrollers - the Teensy 3.6, the LOLIN D1 Mini, and the LOLIN D32. The Teensy version supports communication over USB, the LOLIN D1 Mini supports USB and WiFi, and the LOLIN D32 supports USB, WiFi, and BLE. All boards use the [INA260 current sensor](https://www.ti.com/lit/ds/symlink/ina260.pdf) from Texas Instruments. There are two variants of the LOLIN D1 Mini board - one uses the INA260 breakout board from Adafruit, and the other uses an INA260 directly.
 
 ## Specifications
 
@@ -51,7 +51,7 @@ The Teensy board is a carrier board which houses the microcontroller and the INA
 3. Solder the INA260 to the 8-pin header.
 4. Solder the terminal block to the top side of the board.
 
-## Wemos D1 Mini
+## LOLIN D1 Mini
 
 ### r1 - INA260 Breakout
 
@@ -71,7 +71,7 @@ This board is a "shield" for the D1 Mini which has an INA260 breakout board moun
 
 | Mfg      | Name                            | Qty | Buy                                                                                        |
 | -------- | ------------------------------- | --- | ------------------------------------------------------------------------------------------ |
-| Wemos    | D1 Mini                         | 1   | [Link](https://www.wemos.cc/en/latest/d1/d1_mini.html)                                     |
+| LOLIN    | D1 Mini                         | 1   | [Link](https://www.wemos.cc/en/latest/d1/d1_mini.html)                                     |
 | Adafruit | INA260 Breakout                 | 1   | [Link](https://www.mouser.com/ProductDetail/Adafruit/4226?qs=PzGy0jfpSMvb8foRR1BpJA%3D%3D) |
 | DuPont   | 8-pin 2.54mm Header             | 2   |                                                                                            |
 | DuPont   | 6-pin 2.54mm Header             | 1   |                                                                                            |
@@ -103,7 +103,7 @@ This board is a "shield" for the D1 Mini which has an INA260 directly soldered t
 
 | Mfg      | Name                | Qty | Buy                                                                                        |
 | -------- | ------------------- | --- | ------------------------------------------------------------------------------------------ |
-| Wemos    | D1 Mini             | 1   | [Link](https://www.wemos.cc/en/latest/d1/d1_mini.html)                                     |
+| LOLIN    | D1 Mini             | 1   | [Link](https://www.wemos.cc/en/latest/d1/d1_mini.html)                                     |
 | Adafruit | INA260 Breakout     | 1   | [Link](https://www.mouser.com/ProductDetail/Adafruit/4226?qs=PzGy0jfpSMvb8foRR1BpJA%3D%3D) |
 | DuPont   | 8-pin 2.54mm Header | 2   |                                                                                            |
 | TI       | INA260AIPWR         | 1   | [Link](https://www.mouser.com/ProductDetail/595-INA260AIPWR)                               |
@@ -117,11 +117,22 @@ This board is a "shield" for the D1 Mini which has an INA260 directly soldered t
 3. Solder the 4-pin terminal block to the top side of the board.
 4. Install the shield on top of a D1 Mini.
 
+## LOLIN D32
+
+Coming Soon (tm)
+
+### Schematic
+
+### Board
+
+### BOM
+
+### Assembly
+
 ## Roadmap
 
 Some things we'd like to add, given the time:
 
-- An ESP32-based board with Bluetooth communication
 - One modular connector for the front-end instead of four separate wires
 
 ## Acknowledgements

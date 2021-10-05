@@ -4,6 +4,14 @@ PowerProf is a current monitor for embedded systems. You can use it to get accur
 
 There are currently three supported microcontrollers - the Teensy 3.6, the LOLIN D1 Mini, and the LOLIN D32. The Teensy version supports communication over USB, the LOLIN D1 Mini supports USB and WiFi, and the LOLIN D32 supports USB, WiFi, and BLE. All boards use the [INA260 current sensor](https://www.ti.com/lit/ds/symlink/ina260.pdf) from Texas Instruments. There are two variants of the LOLIN D1 Mini board - one uses the INA260 breakout board from Adafruit, and the other uses an INA260 directly.
 
+## Protocol Support
+
+| Board   | USB | WiFi | BLE |
+| ------- | --- | ---- | --- |
+| Teensy  | Yes | No   | No  |
+| D1 Mini | Yes | Yes  | No  |
+| D32     | Yes | Yes  | Yes |
+
 ## Specifications
 
 | Name                | Absolute         | Typical      |

@@ -129,15 +129,33 @@ This board is a "shield" for the D1 Mini which has an INA260 directly soldered t
 
 ## LOLIN D32
 
-Coming Soon (tm)
+This is a carrier board which houses the microcontroller and the INA260 current sensor.
+
+[Order this board from OSH Park](https://oshpark.com/shared_projects/MNtfu0Mt)
 
 ### Schematic
 
+![d32 schematic](./png/d32-schematic.png)
+
 ### Board
+
+![d32 board](./png/d32-board.png)
 
 ### BOM
 
+| Mfg      | Name                | Qty | Buy                                                                                                           |
+| -------- | ------------------- | --- | ------------------------------------------------------------------------------------------------------------- |
+| LOLIN    | D32                 | 1   | [Link](https://www.aliexpress.com/item/32808551116.html)                                                      |
+| Adafruit | INA260 Breakout     | 1   | [Link](https://www.mouser.com/ProductDetail/Adafruit/4226?qs=PzGy0jfpSMvb8foRR1BpJA%3D%3D)                    |
+| TE Conn. | 282834-2            | 1   | [Link](https://www.mouser.com/ProductDetail/TE-Connectivity/282834-2?qs=A%252Bip%252BNCYi6N8cVKuk8xDog%3D%3D) |
+| DuPont   | 8-pin 2.54mm Header | 1   |                                                                                                               |
+
 ### Assembly
+
+1. Solder the D32 to the top side of the board.
+2. Solder the 8-pin header to the top side of the board.
+3. Solder the INA260 breakout to the 8-pin header.
+4. Solder the 2-pin terminal block to the top side of the board.
 
 ## Roadmap
 

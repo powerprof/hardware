@@ -35,7 +35,7 @@ There are currently three supported microcontrollers - the Teensy 3.6, the LOLIN
 
 The Teensy board is a carrier board which houses the microcontroller and the INA260 current sensor.
 
-[Order this board from OSH Park](https://oshpark.com/shared_projects/RvujZ5At)
+[Order this board from OSH Park](https://oshpark.com/shared_projects/ljCfBuqC)
 
 ### Schematic
 

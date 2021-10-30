@@ -35,7 +35,7 @@ There are currently three supported microcontrollers - the Teensy 3.6, the LOLIN
 
 The Teensy board is a carrier board which houses the microcontroller and the INA260 current sensor.
 
-[Order this board from OSH Park](https://oshpark.com/shared_projects/ljCfBuqC)
+[Order this board from OSH Park](https://oshpark.com/shared_projects/yNJN1VsL)
 
 ### Schematic
 
@@ -67,7 +67,7 @@ The Teensy board is a carrier board which houses the microcontroller and the INA
 
 This board is a "shield" for the D1 Mini which has an INA260 breakout board mounted on it.
 
-[Order this board from OSH Park](https://oshpark.com/shared_projects/oW7e4EAU)
+[Order this board from OSH Park](https://oshpark.com/shared_projects/ZZhTuBfp)
 
 #### Schematic
 
@@ -131,7 +131,7 @@ This board is a "shield" for the D1 Mini which has an INA260 directly soldered t
 
 This is a carrier board which houses the microcontroller and the INA260 current sensor.
 
-[Order this board from OSH Park](https://oshpark.com/shared_projects/MNtfu0Mt)
+[Order this board from OSH Park](https://oshpark.com/shared_projects/jJYH4pyw)
 
 ### Schematic
 

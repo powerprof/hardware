@@ -436,8 +436,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.1524" drill="0">
 <clearance class="0" value="0.1524"/>
+</class>
+<class number="1" name="current" width="0.635" drill="0">
 </class>
 <class number="2" name="signal" width="0.2032" drill="0">
 </class>
@@ -678,37 +680,36 @@ design rules under a new name.
 <wire x1="19.0246" y1="3.8227" x2="19.05" y2="3.81" width="0.2032" layer="16"/>
 <wire x1="16.2687" y1="32.4485" x2="16.256" y2="32.512" width="0.2032" layer="16"/>
 </signal>
-<signal name="VBUS" class="2">
+<signal name="VBUS" class="1">
 <contactref element="J2" pad="2"/>
 <contactref element="J1" pad="6"/>
-<wire x1="48.006" y1="35.7378" x2="48.4505" y2="35.7378" width="0.2032" layer="16"/>
-<wire x1="46.0502" y1="33.782" x2="48.006" y2="35.7378" width="0.2032" layer="16"/>
-<wire x1="20.0914" y1="33.782" x2="46.0502" y2="33.782" width="0.2032" layer="16"/>
-<wire x1="18.8468" y1="32.5374" x2="20.0914" y2="33.782" width="0.2032" layer="16"/>
-<wire x1="48.4505" y1="35.7378" x2="48.514" y2="35.814" width="0.2032" layer="16"/>
-<wire x1="18.8468" y1="32.5374" x2="18.796" y2="32.512" width="0.2032" layer="16"/>
+<wire x1="46.7614" y1="34.0487" x2="48.4505" y2="35.7378" width="0.635" layer="16"/>
+<wire x1="20.3581" y1="34.0487" x2="46.7614" y2="34.0487" width="0.635" layer="16"/>
+<wire x1="18.8468" y1="32.5374" x2="20.3581" y2="34.0487" width="0.635" layer="16"/>
+<wire x1="48.4505" y1="35.7378" x2="48.514" y2="35.814" width="0.635" layer="16"/>
+<wire x1="18.8468" y1="32.5374" x2="18.796" y2="32.512" width="0.635" layer="16"/>
 </signal>
-<signal name="3.3V" class="2">
+<signal name="3.3V" class="1">
 <contactref element="U1" pad="1"/>
 <contactref element="J1" pad="1"/>
-<wire x1="8.89" y1="24.5364" x2="8.89" y2="3.81" width="0.2032" layer="1"/>
-<wire x1="6.1341" y1="27.2923" x2="8.89" y2="24.5364" width="0.2032" layer="1"/>
-<wire x1="6.1341" y1="32.4485" x2="6.1341" y2="27.2923" width="0.2032" layer="1"/>
-<wire x1="6.1341" y1="32.4485" x2="6.096" y2="32.512" width="0.2032" layer="1"/>
+<wire x1="8.89" y1="24.1808" x2="8.89" y2="3.81" width="0.635" layer="1"/>
+<wire x1="6.1341" y1="26.9367" x2="8.89" y2="24.1808" width="0.635" layer="1"/>
+<wire x1="6.1341" y1="32.4485" x2="6.1341" y2="26.9367" width="0.635" layer="1"/>
+<wire x1="6.1341" y1="32.4485" x2="6.096" y2="32.512" width="0.635" layer="1"/>
 </signal>
-<signal name="GND" class="2">
+<signal name="GND" class="1">
 <contactref element="U1" pad="17" route="any" routetag="G$1.GND"/>
 <contactref element="U1" pad="32" route="any" routetag="G$1.GND"/>
 <contactref element="J2" pad="1"/>
 <contactref element="J1" pad="2"/>
-<wire x1="46.0502" y1="27.7368" x2="46.0502" y2="35.7378" width="0.2032" layer="1"/>
-<wire x1="46.9392" y1="26.8478" x2="46.0502" y2="27.7368" width="0.2032" layer="1"/>
-<wire x1="46.0502" y1="35.7378" x2="45.974" y2="35.814" width="0.2032" layer="1"/>
-<wire x1="46.9392" y1="26.8478" x2="46.99" y2="26.82" width="0.2032" layer="1"/>
-<wire x1="8.7122" y1="27.0256" x2="8.7122" y2="32.4485" width="0.2032" layer="1"/>
-<wire x1="8.89" y1="26.8478" x2="8.7122" y2="27.0256" width="0.2032" layer="1"/>
-<wire x1="8.7122" y1="32.4485" x2="8.636" y2="32.512" width="0.2032" layer="1"/>
-<wire x1="8.89" y1="26.8478" x2="8.89" y2="26.82" width="0.2032" layer="1"/>
+<wire x1="46.0502" y1="27.7368" x2="46.0502" y2="35.7378" width="0.635" layer="1"/>
+<wire x1="46.9392" y1="26.8478" x2="46.0502" y2="27.7368" width="0.635" layer="1"/>
+<wire x1="46.0502" y1="35.7378" x2="45.974" y2="35.814" width="0.635" layer="1"/>
+<wire x1="46.9392" y1="26.8478" x2="46.99" y2="26.82" width="0.635" layer="1"/>
+<wire x1="8.7122" y1="27.0256" x2="8.7122" y2="32.4485" width="0.635" layer="1"/>
+<wire x1="8.89" y1="26.8478" x2="8.7122" y2="27.0256" width="0.635" layer="1"/>
+<wire x1="8.7122" y1="32.4485" x2="8.636" y2="32.512" width="0.635" layer="1"/>
+<wire x1="8.89" y1="26.8478" x2="8.89" y2="26.82" width="0.635" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

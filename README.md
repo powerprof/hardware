@@ -99,7 +99,7 @@ This board is a "shield" for the D1 Mini which has an INA260 breakout board moun
 
 This board is a "shield" for the D1 Mini which has an INA260 directly soldered to it.
 
-[Order this board from OSH Park](https://oshpark.com/shared_projects/kBgNvwmK)
+[Order this board from OSH Park](https://oshpark.com/shared_projects/TSTmxFWv)
 
 #### Schematic
 

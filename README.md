@@ -117,8 +117,8 @@ This board is a "shield" for the D1 Mini which has an INA260 directly soldered t
 | Adafruit | INA260 Breakout     | 1   | [Link](https://www.mouser.com/ProductDetail/Adafruit/4226?qs=PzGy0jfpSMvb8foRR1BpJA%3D%3D) |
 | DuPont   | 8-pin 2.54mm Header | 2   |                                                                                            |
 | TI       | INA260AIPWR         | 1   | [Link](https://www.mouser.com/ProductDetail/595-INA260AIPWR)                               |
-| Yageo    | RT1206FRE0710KL     | 2   | [Link](https://www.mouser.com/ProductDetail/603-RT1206FRE0710KL)                           |
-| Samsung  | CL31B104KBCNNNL     | 1   | [Link](https://www.mouser.com/ProductDetail/187-CL31B104KBCNNNL)                           |
+| Bourns   | CR0201AFW-1002GAS   | 4   | [Link](https://www.mouser.com/ProductDetail/652-CR0201AFW1002GAS)                          |
+| Samsung  | CL03A105MQ3CSNH     | 1   | [Link](https://www.mouser.com/ProductDetail/187-CL03A105MQ3CSNH)                           |
 
 #### Assembly
 
